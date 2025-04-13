@@ -1,0 +1,3313 @@
+.JUN-MAC {
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .JUN-MAC .div {
+    background-color: #f2f4f7;
+    overflow-x: hidden;
+    width: 1536px;
+    height: 4048.65px;
+    position: relative;
+  }
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: space-between;
+  background: #009BD6;
+  padding: 10px 20px;
+  height: 61px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 8px;
+  margin-right: 10px;
+  width: 96.3%;
+  z-index: 1000;
+  border: 1px solid#000;
+}
+
+/* Logo */
+.navbar-logo {
+  position: relative;
+  height: 110px; /* Adjust size as needed */
+  top: -1;
+  left: 40px;
+}
+
+/* Navbar Links */
+.navbar-links {
+  position: relative;
+  display: flex;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: light;
+  font-size: 20px;
+  font-weight: 550;
+  gap: 60px;
+  left: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  position: relative;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* Slide underline */
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px; /* 1px space between text and underline */
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255); /* Match the text color */
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+
+/* Search Bar + User Icon Wrapper */
+.navbar-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  right: 50px;
+}
+
+/* Search Bar */
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.navbar-search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  width: 250px;
+  
+}
+
+.navbar-search-input::placeholder {
+  color: rgb(124, 124, 124);
+}
+
+/* Search Icon */
+.navbar-search-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* User Icon */
+.navbar-user-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.navbar-account {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  right: -25px;
+  cursor: pointer;
+}
+
+  
+  .JUN-MAC .overlap {
+    position: absolute;
+    width: 1536px;
+    height: 714px;
+    top: 73px;
+    left: 0
+  }
+  
+  .JUN-MAC .group {
+    position: absolute;
+    width: 1536px;
+    height: 714px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background-image: url(./img/istockphoto-1186679390-612x612-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .JUN-MAC .overlap-group {
+    position: relative;
+    width: 969px;
+    height: 665px;
+    top: 49px;
+    left: 567px;
+}
+.JUN-MAC .img-bg {
+  position: absolute;
+  width: 1536px;
+  height: 714px;
+  top: -60px;
+  left: -580px;
+
+  }
+  
+  .JUN-MAC .group-2 {
+    position: absolute;
+    width: 680px;
+    height: 374px;
+    top: 291px;
+    left: 221px;
+    background-image: url(./img/2016-kia-picanto-si-eztmoluv-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .JUN-MAC .rectangle {
+    position: absolute;
+    width: 1536px;
+    height: 35px;
+    top: 1px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .JUN-MAC .text-wrapper {
+    position: absolute;
+    width: 941px;
+    top: 152px;
+    left: 31px;
+    font-family: "Montserrat-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .JUN-MAC .p {
+    position: absolute;
+    width: 825px;
+    top: 320px;
+    left: 30px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .JUN-MAC .inquire-now {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 185px;
+    height: 57px;
+    top: 500px;
+    left: 40px;
+    background-image: url(./img/rectangle-27.svg);
+    background-size: 100% 100%;
+  }
+  .JUN-MAC .inquire-now:hover {
+    background-color: #bdbdbd; 
+
+  }
+  
+  .JUN-MAC .text-wrapper-2 {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .exterior-nav {
+    position: absolute;
+    width: 512px;
+    height: 35px;
+    top: 1px;
+    left: 0;
+    background-color: #d9d9d9;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.JUN-MAC .exterior-nav:hover {
+    position: relative;
+    color: #ffffff;
+    background-color: #969595;
+   
+}
+  
+  .JUN-MAC .text-wrapper-3 {
+    position: absolute;
+    width: 109px;
+    top: 4px;
+    left: 201px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .JUN-MAC .part-navigation {
+    position: absolute;
+    width: 512px;
+    height: 35px;
+    top: 1px;
+    background-color: #d9d9d9;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    left: 512px;
+  }
+
+  .JUN-MAC .part-navigation:hover {
+    position: relative;
+    color: #ffffff;
+    background-color: #969595;
+   
+}
+  
+  .JUN-MAC .text-wrapper-4 {
+    position: absolute;
+    width: 105px;
+    top: 4px;
+    left: 192px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .JUN-MAC .engine-parts-wrapper {
+    position: absolute;
+    width: 512px;
+    height: 35px;
+    top: 1px;
+    background-color: #d9d9d9;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    left: 1024px;
+  }
+
+  .JUN-MAC .engine-parts-wrapper:hover {
+    position: relative;
+    color: #ffffff;
+    background-color: #969595;
+   
+}
+  
+  .JUN-MAC .label-elementor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -136223px;
+    left: 1024px;
+    overflow: hidden;
+  }
+  
+  .JUN-MAC .text-wrapper-5 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #555555;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .span-elementor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -156053px;
+    left: 1414px;
+    overflow: hidden;
+  }
+  
+  .JUN-MAC .text-wrapper-6 {
+    position: absolute;
+    width: 11px;
+    top: -3px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #3498db;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .JUN-MAC .div-wrapper {
+    left: 1446px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -156053px;
+    overflow: hidden;
+  }
+  
+  .JUN-MAC .text-wrapper-7 {
+    position: absolute;
+    width: 17px;
+    top: -3px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #3498db;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .JUN-MAC .span-elementor-2 {
+    left: 1478px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -156053px;
+    overflow: hidden;
+  }
+  
+  .JUN-MAC .text-wrapper-8 {
+    position: absolute;
+    width: 14px;
+    top: -3px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #3498db;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .JUN-MAC .span-elementor-3 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -180001px;
+    left: -1px;
+    overflow: hidden;
+  }
+  
+  .JUN-MAC .text-wrapper-9 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .frame {
+    position: absolute;
+    width: 1344px;
+    height: 690px;
+    top: 2925px;
+    left: 96px;
+  }
+  
+  .JUN-MAC .location {
+    position: absolute;
+    width: 614px;
+    height: 68px;
+    top: 407px;
+    left: 45px;
+  }
+  
+  .JUN-MAC .text-wrapper-10 {
+    position: absolute;
+    width: 612px;
+    top: -30px;
+    left: 0;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .JUN-MAC .business-hours {
+    position: absolute;
+    width: 618px;
+    height: 140px;
+    top: 521px;
+    left: 0;
+  }
+  
+  .JUN-MAC .text-wrapper-11 {
+    position: absolute;
+    top: -40px;
+    left: 45px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+
+  .JUN-MAC .text-wrapper-11-2 {
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+    
+  .JUN-MAC .text-wrapper-11-1 {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .monday-saturday {
+    position: absolute;
+    top: -10px;
+    left: 45px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  
+  .JUN-MAC .mingcute-time-fill {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .JUN-MAC .img {
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    top: -38px;
+    left: 2px;
+  }
+  
+  .JUN-MAC .call-us {
+    position: absolute;
+    width: 267px;
+    height: 83px;
+    top: 220px;
+    left: 0;
+  }
+  
+  .JUN-MAC .text-wrapper-12 {
+    position: absolute;
+    top: 49px;
+    left: 45px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .material-symbols {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+  }
+  
+  .JUN-MAC .group-3 {
+    position: absolute;
+    width: 182px;
+    height: 34px;
+    top: 349px;
+    left: 0;
+  }
+  
+  .JUN-MAC .mdi-location {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 4px;
+    left: -23px;
+  }
+  
+  .JUN-MAC .screenshot {
+    position: absolute;
+    width: 616px;
+    height: 498px;
+    top: 159px;
+    left: 728px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .text-wrapper-13 {
+    position: absolute;
+    top: 124px;
+    left: 30px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .overlap-2 {
+    position: absolute;
+    width: 1536px;
+    height: 2117px;
+    top: 808px;
+    left: 0;
+  }
+  
+  .JUN-MAC .about-us-wrapper {
+    position: absolute;
+    width: 1377px;
+    height: 647px;
+    top: 1470px;
+    left: 102px;
+  }
+  
+  .JUN-MAC .about-us {
+    height: 647px;
+  }
+  
+  .JUN-MAC .group-4 {
+    position: relative;
+    width: 1362px;
+    height: 523px;
+    top: 83px;
+    left: 19px;
+  }
+  
+  .JUN-MAC .text-wrapper-14 {
+    position: absolute;
+    width: 171px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .since-established-in {
+    position: absolute;
+    width: 762px;
+    height: 473px;
+    top: 50px;
+    left: 596px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0.15px;
+    line-height: 30px;
+  }
+  
+  .JUN-MAC .component {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: 1609px;
+    left: 97px;
+    overflow: hidden;
+  }
+  
+  .JUN-MAC .group-5 {
+    position: relative;
+    width: 2694px;
+    height: 450px;
+  }
+  
+  .JUN-MAC .about {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .about-2 {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: -2416px;
+    left: 1820px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .about-3 {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: -2416px;
+    left: 1122px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .about-4 {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    top: -2416px;
+    left: 424px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .product {
+    position: absolute;
+    width: 1536px;
+    height: 1534px;
+    top: 0;
+    left: 0;
+  }
+  
+  .JUN-MAC .group-6 {
+    position: absolute;
+    width: 1087px;
+    height: 576px;
+    top: 374px;
+    left: 227px;
+  }
+  
+  .JUN-MAC .overlap-3 {
+    position: absolute;
+    width: 335px;
+    height: 584px;
+    top: 0;
+    left: 374px;
+  }
+  
+  .JUN-MAC .text-wrapper-15 {
+    position: absolute;
+    width: 131px;
+    top: 352px;
+    left: 25px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .JUN-MAC .engine-parts {
+    position: absolute;
+    border-radius: 20px;
+    width: 327px;
+    height: 576px;
+    top: 0;
+    left: 0;
+  }
+
+ .JUN-MAC .engine-parts:hover {
+  border: 2px solid #000000;
+}
+  .JUN-MAC .overlap-4 {
+    position: absolute;
+    width: 329px;
+    height: 576px;
+    top: 0;
+    left: 0;
+  }
+  
+  .JUN-MAC .text-wrapper-16 {
+    position: absolute;
+    width: 204px;
+    top: 400px;
+    left: 63px;
+    -webkit-text-stroke: 1px #a4a4a4a4;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .JUN-MAC .exterior-parts {
+    position: absolute;
+    width: 329px;
+    height: 576px;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .JUN-MAC .overlap-group-2 {
+    position: relative;
+    border-radius: 20px;
+    width: 327px;
+    height: 576px;
+  }
+  
+  .JUN-MAC .rectangle-wrapper {
+    position: absolute;
+    width: 327px;
+    height: 576px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/118256440-3296620283714228-1271245356757175382-n-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .JUN-MAC .rectangle-2 {
+    position: absolute;
+    border-radius: 20px;
+    width: 327px;
+    height: 576px;
+    top: 0;
+    left: 0;
+  }
+  
+  .JUN-MAC .text-wrapper-17 {
+    position: absolute;
+    width: 180px;
+    top: 209px;
+    left: 72px;
+    -webkit-text-stroke: 1px #a4a4a4a4;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .view-all {
+    left: 92px;
+    position: absolute;
+    width: 149px;
+    height: 48px;
+    top: 281px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .JUN-MAC .text-wrapper-18 {
+    position: absolute;
+    width: 82px;
+    top: 8px;
+    left: 32px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .interior-parts {
+    position: absolute;
+    width: 329px;
+    height: 576px;
+    top: 0;
+    left: 756px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .JUN-MAC .group-7 {
+    position: absolute;
+    width: 327px;
+    height: 576px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/205107a71933cb88e73766613fb585b8-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .JUN-MAC .rectangle-3 {
+    height: 576px;
+    background-color: #432900;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #00000040;
+    opacity: 0.3;
+  }
+  
+  .JUN-MAC .text-wrapper-19 {
+    position: absolute;
+    width: 200px;
+    top: 209px;
+    left: 80px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .view-all-2 {
+    left: 90px;
+    position: absolute;
+    width: 149px;
+    height: 48px;
+    top: 281px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .JUN-MAC .text-wrapper-20 {
+    position: absolute;
+    width: 321px;
+    top: 303px;
+    left: 608px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+  }
+  
+  .JUN-MAC .text-wrapper-21 {
+    position: absolute;
+    top: 1009px;
+    left: 109px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .group-8 {
+    position: absolute;
+    width: 684px;
+    height: 152px;
+    top: 133px;
+    left: 446px;
+  }
+  
+  .JUN-MAC .KIA {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 35px;
+    border: 1px solid;
+    border-color: #a4a4a4;
+    box-shadow: 0px 4px 4px #00000040;
+    overflow: scroll;
+  }
+  
+  .JUN-MAC .KIA::-webkit-scrollbar {
+    width: 0;
+    display: none;
+  }
+  .JUN-MAC .KIA:hover {
+    transform: scale(1.2); /* Increases size by 20% */
+  }
+  .JUN-MAC .image {
+    position: absolute;
+    width: 137px;
+    height: 120px;
+    top: 16px;
+    left: 5px;
+  }
+  
+  .JUN-MAC .HYUNDAI {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 178px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    border: 1px solid;
+    border-color: #a4a4a4;
+    box-shadow: 0px 4px 4px #00000040;
+    
+  }
+  .JUN-MAC .HYUNDAI:hover {
+    transform: scale(1.2); /* Increases size by 20% */
+  }
+  
+  
+  .JUN-MAC .image-2 {
+    position: absolute;
+    width: 129px;
+    height: 110px;
+    top: 18px;
+    left: 10px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .image-wrapper {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 356px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    border: 1px solid;
+    border-color: #a4a4a4;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  .JUN-MAC .image-wrapper:hover {
+    transform: scale(1.2); /* Increases size by 20% */
+  }
+  .JUN-MAC .image-3 {
+    position: absolute;
+    width: 129px;
+    height: 124px;
+    top: 12px;
+    left: 12px;
+  }
+  
+  .JUN-MAC .SSANG-YONG {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 2px;
+    left: 534px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    border: 1px solid;
+    border-color: #a4a4a4;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  .JUN-MAC .SSANG-YONG:hover {
+    transform: scale(1.2); /* Increases size by 20% */
+  }
+  
+  .JUN-MAC .image-4 {
+    position: absolute;
+    width: 120px;
+    height: 91px;
+    top: 28px;
+    left: 16px;
+  }
+  
+  .JUN-MAC .text-wrapper-22 {
+    position: absolute;
+    top: 80px;
+    left: 524px;
+    font-family: "Kameron-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .group-9 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 1089px;
+    left: 1148px;
+  }
+  
+  .JUN-MAC .group-10 {
+    position: absolute;
+    width: 237px;
+    height: 51px;
+    top: 341px;
+    left: 21px;
+  }
+  
+  .JUN-MAC .text-wrapper-23 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-24 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .group-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+  }
+  
+  .JUN-MAC .group-11 {
+    height: 330px;
+    border-radius: 5px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(102, 102, 102) 0%,
+      rgb(0, 0, 0) 100%
+    );
+  }
+  
+  .JUN-MAC .overlap-group-wrapper {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .JUN-MAC .overlap-group-3 {
+    position: relative;
+    height: 330px;
+    border-radius: 5px;
+  }
+  
+  .JUN-MAC .rectangle-4 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+  
+  .JUN-MAC .sorento-removebg {
+    position: absolute;
+    width: 319px;
+    height: 319px;
+    top: 6px;
+    left: 5px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .group-12 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 1089px;
+    left: 785px;
+  }
+  
+  .JUN-MAC .group-13 {
+    position: absolute;
+    width: 203px;
+    height: 51px;
+    top: 341px;
+    left: 21px;
+  }
+  
+  .JUN-MAC .group-14 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(255, 255, 255) 0%,
+      rgb(0, 0, 0) 100%
+    );
+  }
+  
+  .JUN-MAC .hyundai-tuscon-wrapper {
+    position: relative;
+    height: 330px;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+  }
+  
+  .JUN-MAC .hyundai-Gs {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 33px;
+    left: 20px;
+  }
+  
+  .JUN-MAC .rotor-disc {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: -18px;
+    left: 6px;
+  }
+
+  .JUN-MAC .wiper-cowling-starex {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 20px;
+    left: 13px;
+    rotate: 30deg;
+  }
+
+  .JUN-MAC .hyundai-tuscon {
+    position: absolute;
+    width: 304px;
+    height: 265px;
+    top: 33px;
+    left: 13px;
+  }
+  
+  .JUN-MAC .group-15 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 1089px;
+    left: 422px;
+  }
+  
+  .JUN-MAC .group-16 {
+    position: absolute;
+    width: 260px;
+    height: 51px;
+    top: 341px;
+    left: 18px;
+  }
+  
+  .JUN-MAC .kia-picanto-front-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(255, 255, 255) 0%,
+      rgb(0, 0, 0) 100%
+    );
+  }
+  
+  .JUN-MAC .kia-picanto-front {
+    position: absolute;
+    width: 261px;
+    height: 223px;
+    top: 54px;
+    left: 34px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .group-17 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 1089px;
+    left: 59px;
+  }
+  
+  .JUN-MAC .group-18 {
+    position: absolute;
+    width: 278px;
+    height: 51px;
+    top: 341px;
+    left: 12px;
+  }
+  
+  .JUN-MAC .img-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(102, 102, 102) 0%,
+      rgb(0, 0, 0) 100%
+    );
+  }
+  
+  .JUN-MAC .hyundai-tuscon-2 {
+    position: absolute;
+    width: 290px;
+    height: 153px;
+    top: 89px;
+    left: 20px;
+    object-fit: cover;
+  }
+  
+  .JUN-MAC .overlap-wrapper {
+    position: absolute;
+    width: 1489px;
+    height: 384px;
+    top: 3665px;
+    left: 37px;
+  }
+  
+  .JUN-MAC .overlap-5 {
+    position: relative;
+    width: 1420px;
+    height: 384px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .JUN-MAC .span-elementor-4 {
+    position: absolute;
+    width: 1420px;
+    height: 1px;
+    top: 247px;
+    left: 0px;
+    border-top-width: 0.8px;
+    border-top-style: solid;
+    border-color: #000000;
+  }
+  
+  .JUN-MAC .text-wrapper-25 {
+    position: absolute;
+    top: 26px;
+    left: 36px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-26 {
+    position: absolute;
+    top: 26px;
+    left: 316px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-27 {
+    position: absolute;
+    top: 26px;
+    left: 582px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-28 {
+    position: absolute;
+    top: 75px;
+    left: 36px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-29 {
+    position: absolute;
+    top: 115px;
+    left: 36px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-30 {
+    position: absolute;
+    top: 75px;
+    left: 316px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-31 {
+    position: absolute;
+    top: 115px;
+    left: 316px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-32 {
+    position: absolute;
+    top: 150px;
+    left: 316px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+
+  .JUN-MAC .text-bus-engine {
+    position: absolute;
+    top: 185px;
+    left: 316px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-33 {
+    position: absolute;
+    top: 265px;
+    left: 36px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-34 {
+    position: absolute;
+    top: 75px;
+    left: 582px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-35 {
+    position: absolute;
+    top: 115px;
+    left: 582px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-36 {
+    position: absolute;
+    top: 265px;
+    left: 563px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .text-wrapper-37 {
+    position: absolute;
+    top: 265px;
+    left: 758px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .JUN-MAC .navigation {
+    position: fixed;
+    width: 1536px;
+    height: 74px;
+    top: 0;
+    left: 0;
+  }
+  
+  .JUN-MAC .search-p-arts {
+    position: absolute;
+    width: 361px;
+    height: 36px;
+    top: 18px;
+    left: 1010px;
+  }
+  
+  .JUN-MAC .overlap-6 {
+    position: relative;
+    width: 359px;
+    height: 36px;
+    background-color: #b5b5b5;
+    border-radius: 11px;
+  }
+  
+  .JUN-MAC .search-icon-wrapper {
+    position: absolute;
+    width: 21px;
+    height: 25px;
+    top: 7px;
+    left: 13px;
+  }
+  
+  .JUN-MAC .search-icon {
+    height: 25px;
+  }
+  
+  .JUN-MAC .overlap-group-4 {
+    position: relative;
+    width: 23px;
+    height: 25px;
+  }
+  
+  .JUN-MAC .ellipse {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color: #b5b5b5;
+    border-radius: 9.64px / 9.87px;
+    border: 3px solid;
+    border-color: #626262;
+  }
+  
+  .JUN-MAC .line {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 15px;
+    left: 13px;
+  }
+  
+  .JUN-MAC .text-wrapper-38 {
+    position: absolute;
+    top: 9px;
+    left: 42px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #626262;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame {
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame .div {
+    background-color: #f2f4f7;
+    width: 1536px;
+    height: 936px;
+    position: relative;
+}
+
+.frame .overlap {
+    position: absolute;
+    width: 1536px;
+    height: 74px;
+    top: 0;
+    left: 0;
+}
+
+.frame .group {
+    position: absolute;
+    width: 1536px;
+    height: 74px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+}
+
+.frame .log-in {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 21px;
+    left: 1442px;
+}
+
+.frame .image {
+    position: absolute;
+    width: 101px;
+    height: 73px;
+    top: 0;
+    left: 30px;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    top: 182px;
+    left: 57px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .line {
+    position: absolute;
+    width: 1px;
+    height: 862px;
+    top: 74px;
+    left: 313px;
+    object-fit: cover;
+}
+
+.frame .text-wrapper-2 {
+    position: absolute;
+    top: 285px;
+    left: 57px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .rectangle {
+    width: 25px;
+    height: 25px;
+    top: 351px;
+    left: 57px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #5e5e5e;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.frame .rectangle-2 {
+    width: 25px;
+    height: 25px;
+    top: 394px;
+    left: 57px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #5e5e5e;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.frame .rectangle-3 {
+    width: 25px;
+    height: 25px;
+    top: 438px;
+    left: 57px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #5e5e5e;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.frame .rectangle-4 {
+    width: 25px;
+    height: 25px;
+    top: 485px;
+    left: 57px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #5e5e5e;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.frame .text-wrapper-3 {
+    position: absolute;
+    top: 352px;
+    left: 110px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+    position: absolute;
+    top: 395px;
+    left: 110px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+    position: absolute;
+    top: 439px;
+    left: 110px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-6 {
+    position: absolute;
+    top: 486px;
+    left: 110px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .group-2 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 160px;
+    left: 1142px;
+}
+
+.frame .group-3 {
+    position: absolute;
+    width: 237px;
+    height: 51px;
+    top: 341px;
+    left: 21px;
+}
+
+.frame .text-wrapper-7 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.frame .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.frame .group-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+}
+
+.frame .div-wrapper {
+    height: 330px;
+    border-radius: 5px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(102, 102, 102) 0%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.frame .overlap-group-wrapper {
+    width: 330px;
+    height: 330px;
+}
+
+.frame .overlap-group {
+    position: relative;
+    height: 330px;
+    border-radius: 5px;
+}
+
+.frame .rectangle-5 {
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.frame .sorento-removebg {
+    position: absolute;
+    width: 319px;
+    height: 319px;
+    top: 6px;
+    left: 5px;
+
+}
+
+.frame .group-4 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 160px;
+    left: 741px;
+}
+
+.frame .group-5 {
+    position: absolute;
+    width: 260px;
+    height: 51px;
+    top: 341px;
+    left: 18px;
+}
+
+.frame .kia-picanto-front-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(255, 255, 255) 0%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.frame .kia-picanto-front {
+    position: absolute;
+    width: 261px;
+    height: 223px;
+    top: 54px;
+    left: 34px;
+    object-fit: cover;
+}
+
+.frame .group-6 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 160px;
+    left: 341px;
+}
+
+.frame .group-7 {
+    position: absolute;
+    width: 278px;
+    height: 51px;
+    top: 341px;
+    left: 12px;
+}
+
+.frame .hyundai-tuscon-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(102, 102, 102) 0%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.frame .hyundai-tuscon {
+    position: absolute;
+    width: 290px;
+    height: 153px;
+    top: 89px;
+    left: 20px;
+    object-fit: cover;
+}
+  
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.log-in {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.log-in .group-wrapper {
+  background-color: #ffffff;
+  width: 1536px;
+  height: 787px;
+}
+
+.log-in .group {
+  height: 787px;
+}
+
+.log-in .log-IN {
+  width: 1536px;
+  height: 787px;
+  background-color: #d9d9d9;
+}
+
+.log-in .overlap {
+  position: relative;
+  height: 787px;
+}
+
+.log-in .div {
+  position: absolute;
+  width: 1536px;
+  height: 74px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.log-in .search-p-arts {
+  position: absolute;
+  width: 361px;
+  height: 36px;
+  top: 18px;
+  left: 1010px;
+}
+
+.log-in .overlap-group {
+  position: relative;
+  width: 359px;
+  height: 36px;
+  background-color: #b5b5b5;
+  border-radius: 11px;
+}
+
+.log-in .search-icon-wrapper {
+  position: absolute;
+  width: 21px;
+  height: 25px;
+  top: 7px;
+  left: 13px;
+}
+
+.log-in .search-icon {
+  height: 25px;
+}
+
+.log-in .overlap-group-2 {
+  position: relative;
+  width: 23px;
+  height: 25px;
+}
+
+.log-in .ellipse {
+  position: absolute;
+  width: 19px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-color: #b5b5b5;
+  border-radius: 9.64px / 9.87px;
+  border: 3px solid;
+  border-color: #626262;
+}
+
+.log-in .line {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 15px;
+  left: 13px;
+}
+
+.log-in .text-wrapper {
+  position: absolute;
+  top: 9px;
+  left: 42px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #626262;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in .img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 21px;
+  left: 1442px;
+}
+
+.log-in .overlap-wrapper {
+  position: absolute;
+  width: 1536px;
+  height: 714px;
+  top: 73px;
+  left: 0;
+  background-image: url(./img/istockphoto-1186679390-612x612-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.log-in .overlap-2 {
+  position: relative;
+  width: 969px;
+  height: 683px;
+  top: 20px;
+  left: 567px;
+}
+
+.log-in .element {
+  position: absolute;
+  width: 969px;
+  height: 617px;
+  top: 0;
+  left: 0;
+}
+
+.log-in .group-2 {
+  position: absolute;
+  width: 680px;
+  height: 374px;
+  top: 309px;
+  left: 282px;
+  background-image: url(./img/2016-kia-picanto-si-eztmoluv-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.log-in .rectangle {
+  position: absolute;
+  width: 639px;
+  height: 628px;
+  top: 117px;
+  left: 447px;
+  background-color: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.log-in .text-wrapper-2 {
+  position: absolute;
+  width: 99px;
+  top: 388px;
+  left: 892px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .text-wrapper-3 {
+  position: absolute;
+  top: 158px;
+  left: 513px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .overlap-group-wrapper {
+  position: absolute;
+  width: 460px;
+  height: 66px;
+  top: 231px;
+  left: 537px;
+}
+
+.log-in .div-wrapper {
+  position: relative;
+  width: 458px;
+  height: 66px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in .text-wrapper-4 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #5e5e5e;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .group-3 {
+  position: absolute;
+  width: 460px;
+  height: 66px;
+  top: 323px;
+  left: 526px;
+}
+
+.log-in .overlap-3 {
+    position: absolute;
+    width: 458px;
+    height: 66px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #abababab;
+    box-shadow: 0px 4px 4px #00000040;
+    font-weight: 300;
+    font-size: large;
+
+}
+
+.log-in .overlap-3-1 {
+  position: absolute;
+  width: 458px;
+  height: 66px;
+  left: -11px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  font-weight: 300;
+  font-size: large;
+
+}
+.log-in .group-4 {
+  position: absolute;
+  width: 193px;
+  height: 53px;
+  top: 426px;
+  left: 669px;
+}
+
+.log-in .overlap-4 {
+  position: relative;
+  width: 191px;
+  height: 53px;
+  background-color: #d9d9d9;
+  border-radius: 21px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.log-in .text-wrapper-5 {
+  position: absolute;
+  top: 8px;
+  left: 62px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .group-5 {
+  position: absolute;
+  width: 282px;
+  height: 34px;
+  top: 511px;
+  left: 628px;
+}
+
+.log-in .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 132px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .line-2 {
+  position: absolute;
+  width: 117px;
+  height: 1px;
+  top: 16px;
+  left: 0;
+  object-fit: cover;
+}
+
+.log-in .line-3 {
+  position: absolute;
+  width: 117px;
+  height: 1px;
+  top: 16px;
+  left: 164px;
+  object-fit: cover;
+}
+
+.log-in .group-6 {
+  position: absolute;
+  width: 189px;
+  height: 34px;
+  top: 554px;
+  left: 674px;
+}
+
+.log-in .flat-color-icons {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  left: 0;
+}
+
+.log-in .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .group-7 {
+  position: absolute;
+  width: 284px;
+  height: 34px;
+  top: 627px;
+  left: 628px;
+}
+
+.log-in .sign_up {
+  position: absolute;
+  top: 0;
+  left: 185px;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #0033ff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.log-in .image {
+  position: absolute;
+  width: 101px;
+  height: 73px;
+  top: 0;
+  left: 30px;
+}
+
+/* sign up css */
+
+.sign-up {
+  background-color: #b9b9b9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up .div {
+  background-color: #b9b9b9;
+  overflow: hidden;
+  width: 1536px;
+  height: 787px;
+  position: relative;
+}
+
+.sign-up .overlap {
+  position: absolute;
+  width: 1536px;
+  height: 714px;
+  top: 74px;
+  left: 0;
+}
+
+.sign-up .group {
+  position: absolute;
+  width: 1536px;
+  height: 714px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up .overlap-group {
+  position: relative;
+  height: 713px;
+  background-image: url(./img/istockphoto-1186679390-612x612-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sign-up .element {
+  position: absolute;
+  width: 969px;
+  height: 617px;
+  top: 20px;
+  left: 567px;
+}
+
+.sign-up .group-2 {
+  position: absolute;
+  width: 680px;
+  height: 374px;
+  top: 329px;
+  left: 849px;
+  background-image: url(./img/2016-kia-picanto-si-eztmoluv-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sign-up .rectangle {
+  width: 1119px;
+  height: 663px;
+  top: 30px;
+  left: 208px;
+  border-radius: 56px;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .group-3 {
+  position: absolute;
+  width: 857px;
+  height: 555px;
+  top: 51px;
+  left: 348px;
+}
+
+.sign-up .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.sign-up .rectangle-2 {
+  width: 400px;
+  height: 60px;
+  top: 111px;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .rectangle-3 {
+  width: 400px;
+  height: 60px;
+  top: 239px;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .rectangle-4 {
+  width: 400px;
+  height: 60px;
+  top: 367px;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .rectangle-5 {
+  width: 400px;
+  height: 60px;
+  top: 495px;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .div-wrapper {
+  position: absolute;
+  width: 316px;
+  height: 60px;
+  top: 495px;
+  left: 439px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000ab;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.sign-up .text-wrapper-2 {
+  position: absolute;
+  top: 12px;
+  left: 41px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .rectangle-6 {
+  width: 400px;
+  height: 60px;
+  top: 111px;
+  left: 439px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .rectangle-7 {
+  width: 400px;
+  height: 60px;
+  top: 239px;
+  left: 439px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .rectangle-8 {
+  width: 400px;
+  height: 60px;
+  top: 367px;
+  left: 439px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #abababab;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.sign-up .text-wrapper-3 {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .text-wrapper-4 {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .text-wrapper-5 {
+  position: absolute;
+  top: 205px;
+  left: 439px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .text-wrapper-6 {
+  position: absolute;
+  top: 333px;
+  left: 439px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .text-wrapper-7 {
+  position: absolute;
+  top: 333px;
+  left: 0;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .text-wrapper-8 {
+  position: absolute;
+  top: 461px;
+  left: 0;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .text-wrapper-9 {
+  position: absolute;
+  top: 77px;
+  left: 439px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .group-4 {
+  position: absolute;
+  width: 597px;
+  height: 34px;
+  top: 630px;
+  left: 471px;
+}
+
+.sign-up .p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .term-conditions {
+  position: absolute;
+  top: 0;
+  left: 407px;
+  font-family: "Montserrat-Light", Helvetica;
+  font-weight: 300;
+  color: #0048ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.sign-up .overlap-2 {
+  position: absolute;
+  width: 1536px;
+  height: 74px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up .log-in-wrapper {
+  position: absolute;
+  width: 1536px;
+  height: 74px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.sign-up .log-in {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 21px;
+  left: 1442px;
+}
+
+.sign-up .image {
+  position: absolute;
+  width: 101px;
+  height: 73px;
+  top: 0;
+  left: 30px;
+}
+
+.item-click {
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.item-click .div {
+    background-color: #f2f4f7;
+    overflow: hidden;
+    width: 1536px;
+    height: 1678px;
+    position: relative;
+}
+
+.item-click .overlap {
+    position: absolute;
+    width: 2128px;
+    height: 1130px;
+    top: 139px;
+    left: 57px;
+}
+
+.item-click .rectangle {
+    width: 1287px;
+    height: 595px;
+    top: 0;
+    left: 60px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.item-click .group {
+    position: absolute;
+    width: 2034px;
+    height: 967px;
+    top: 48px;
+    left: 94px;
+}
+
+.item-click .hyundai-tuscon-wrapper {
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(102, 102, 102) 0%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.item-click .hyundai-tuscon {
+    position: absolute;
+    width: 413px;
+    height: 218px;
+    top: 127px;
+    left: 29px;
+    object-fit: cover;
+}
+
+.item-click .text-wrapper {
+    position: absolute;
+    top: 90px;
+    left: 512px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.item-click .rectangle-2 {
+    width: 30px;
+    height: 30px;
+    top: 168px;
+    left: 526px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #abababaa;
+    box-shadow: 0px 4px 4px #00000040;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.item-click .text-wrapper-2 {
+    position: absolute;
+    top: 171px;
+    left: 580px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.item-click .p {
+    position: absolute;
+    width: 705px;
+    top: 306px;
+    left: 530px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.item-click .group-2 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 738px;
+    left: 401px;
+}
+
+.item-click .group-3 {
+    position: absolute;
+    width: 237px;
+    height: 51px;
+    top: 341px;
+    left: 21px;
+}
+
+.item-click .text-wrapper-3 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.item-click .text-wrapper-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.item-click .group-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+}
+
+.item-click .div-wrapper {
+    height: 330px;
+    border-radius: 5px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(102, 102, 102) 0%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.item-click .overlap-group-wrapper {
+    width: 330px;
+    height: 330px;
+}
+
+.item-click .overlap-group {
+    position: relative;
+    height: 330px;
+    border-radius: 5px;
+}
+
+.item-click .rectangle-3 {
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.item-click .sorento-removebg {
+    position: absolute;
+    width: 319px;
+    height: 319px;
+    top: 6px;
+    left: 5px;
+    object-fit: cover;
+}
+
+.item-click .group-4 {
+    position: absolute;
+    width: 330px;
+    height: 392px;
+    top: 738px;
+    left: 0;
+}
+
+.item-click .group-5 {
+    position: absolute;
+    width: 260px;
+    height: 51px;
+    top: 341px;
+    left: 18px;
+}
+
+.item-click .kia-picanto-front-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(255, 255, 255) 0%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.item-click .kia-picanto-front {
+    position: absolute;
+    width: 261px;
+    height: 223px;
+    top: 54px;
+    left: 34px;
+    object-fit: cover;
+}
+
+.item-click .text-wrapper-5 {
+    position: absolute;
+    top: 682px;
+    left: 41px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    white-space: nowrap;
+}
+
+.item-click .group-6 {
+    position: absolute;
+    width: 492px;
+    height: 54px;
+    top: 275px;
+    left: 624px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.item-click .text-wrapper-6 {
+    position: absolute;
+    top: 14px;
+    left: 184px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.item-click .overlap-wrapper {
+    position: absolute;
+    width: 1536px;
+    height: 74px;
+    top: 0;
+    left: 0;
+}
+
+.item-click .overlap-2 {
+    position: relative;
+    height: 74px;
+}
+
+.item-click .log-in-wrapper {
+    position: absolute;
+    width: 1536px;
+    height: 74px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+}
+
+.item-click .log-in {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 21px;
+    left: 1442px;
+}
+
+.item-click .hugeicons-shopping {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 19px;
+    left: 1486px;
+}
+
+.item-click .img {
+    position: absolute;
+    width: 29px;
+    height: 31px;
+    top: 2px;
+    left: 3px;
+}
+
+.item-click .image {
+    position: absolute;
+    width: 101px;
+    height: 73px;
+    top: 0;
+    left: 30px;
+}
+
+/* Chat Box */
+/* Chat Icon */
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-icon img {
+  width: 35px;
+  height: 35px;
+}
+
+/* Chat Box */
+.chat-box {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 400px;
+  height: 500px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #0078ff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.chat-header .close-chat {
+  position: relative;
+  cursor: pointer;
+  font-size: 30px;
+  left: 350px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.chat-header .close-chat:hover {
+  color: rgb(40, 27, 27);
+  transform: scale(1.2);
+}
+
+.chat-messages {
+  height: 500px;
+  overflow-y: auto;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.chat-input button {
+  background: #0078ff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.chat-profile {
+  position: relative;
+  
+}
+
+.chat-profile {
+  display: flex;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+}
+.chat-support{
+  display: flex;
+  position: absolute;
+  left: 55px;
+}
+
+.JUN-MAC .background-component {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 50px;
+  left: 560px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.JUN-MAC .recommendation-module {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 50px;
+  left: 30px;
+  background-color: #00415A;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.JUN-MAC .text-recommendation {
+  position: relative;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  top: 30px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px; 
+  padding: 20px;
+  border-radius: 8px;
+  
+}
+
+.dropdown select {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.JUN-MAC .button-1 {
+  position: absolute;
+  background-color: #00B8FF; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  top: 450px;
+  right: 210px;
+
+}
+
+.button-1:hover {
+  background-color: #fefefe;
+  color: rgb(0, 0, 0);
+}
+
+.frame .text-recommendation {
+  position: absolute;
+  top: 100px;
+  left: 57px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.frame .recommendation-module1 {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  top: 30px;
+  left: 40px;
+}
+
+.frame .rectangle-rec {
+  width: 250px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  opacity: 0.8;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.frame .overlap-rec {
+  position: relative;
+  height: 250px;
+  border-radius: 5px;
+}
+.frame .overlap-group-rec {
+  width:250px;
+  height: 250px;
+}
+
+.frame .div-wrapper-rec {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(102, 102, 102) 0%,
+      rgb(0, 0, 0) 100%
+  );
+}
+
+.JUN-MAC .group-15:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.JUN-MAC .group-12:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.JUN-MAC .group-17:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.JUN-MAC .group-9:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
